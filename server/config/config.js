@@ -9,7 +9,7 @@ module.exports = {
     },
     production: {
         rootPath: rootPath,
-        db: 'mongodb://admin:ad123456min@ds055980.mongolab.com:55980/mongowallit',
+        db: 'mongodb://admin:ad123456min@ds055980.mlab.com:55980/mongowallit',
         port: process.env.PORT || 3030
     }
 };
